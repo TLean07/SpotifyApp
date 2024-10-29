@@ -52,7 +52,7 @@ O **SpotifyApp** é um aplicativo desenvolvido para proporcionar uma experiênci
 5. **Execute o projeto**:
     Após as configurações, inicie o servidor de desenvolvimento:
     ```bash
-    npm start
+    npm run dev
     ```
 
 6. **Deploy no Vercel**:
