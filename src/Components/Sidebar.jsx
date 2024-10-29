@@ -1,4 +1,6 @@
-export default function Sidebar({children}) {
+import PropTypes from 'prop-types';
+
+export default function Sidebar({ children }) {
   return (
     <>
       <aside className="w-sidebar bg-12 rounded-lg overflow-y-scroll">
@@ -12,3 +14,7 @@ export default function Sidebar({children}) {
     </>
   );
 }
+
+Sidebar.propTypes = {
+  children: PropTypes.node,
+};
